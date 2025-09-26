@@ -1,0 +1,81 @@
+/* Initial setting */
+html {
+    /* font-family: "Dancing Script", cursive; */
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    background-color: #FFFFF8;
+}
+
+a {
+    text-decoration: none;
+    color: #121111
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #FFFFF8;
+}
+
+
+/* Styles */
+.bodoni {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+}
+
+.container-fluid {
+    width: 90%;
+    background-color: #FFFFF8;
+}
+
+/* Define custom flex box */
+.flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* Header */
+header {
+    padding: 27px 0;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #121111;
+}
+
+.logo span {
+    color: #D69823;
+}
+
+.header_menu li {
+    margin-left: 2.2rem;
+}
+
+.header_menu li a {
+    transition: .3s;
+}
+
+.header_menu li a:hover {
+    color: #D69823;
+    transition: .3s;
+}
+
+
+/* Main */
+#hero {
+    background-image: url(./images/hero.webp);
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
